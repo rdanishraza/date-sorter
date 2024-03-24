@@ -1,4 +1,4 @@
-const sortDate = (array, type) => {
+export function sortDate(array, type) {
   try {
     const timestampArr = array.map((item) => new Date(item).getTime());
     const sortedTimestamp = timestampArr.sort();
@@ -16,6 +16,6 @@ const sortDate = (array, type) => {
   } catch (error) {
     return error;
   }
-};
+}
 
-module.exports = sortDate;
+// module.exports = sortDate;

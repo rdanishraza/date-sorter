@@ -1,12 +1,12 @@
 {
-  "type": "commonjs",
+  "type": "module",
   "name": "date-sorter",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "description": "used to soth the date",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.mjs"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
